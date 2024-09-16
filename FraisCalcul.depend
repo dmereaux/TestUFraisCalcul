@@ -1,0 +1,1369 @@
+# depslib dependency file v1.0
+1724506372 source:c:\tp\fraiscalcul\calculfrais.cpp
+	<string>
+	"CalculFrais.h"
+	"Param.h"
+	<iostream>
+
+1724506372 c:\tp\fraiscalcul\calculfrais.h
+	"Param.h"
+	<string>
+
+1724506372 c:\tp\fraiscalcul\param.h
+	<iostream>
+
+1724506372 source:c:\tp\fraiscalcul\testcalculfrais.cpp
+	"CalculFrais.h"
+	<string>
+	"gtest/gtest.h"
+	"gmock/gmock.h"
+	"MockParam.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest.h
+	<cstddef>
+	<limits>
+	<memory>
+	<ostream>
+	<type_traits>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-matchers.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest_prod.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<cstdint>
+	<iomanip>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<type_traits>
+	<vector>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-type-util.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-port.h
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cerrno>
+	<cstdint>
+	<limits>
+	<type_traits>
+	<sys/types.h>
+	<sys/stat.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<iostream>
+	<locale>
+	<memory>
+	<string>
+	<tuple>
+	<vector>
+	"gtest/internal/custom/gtest-port.h"
+	"gtest/internal/gtest-port-arch.h"
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<unistd.h>
+	<strings.h>
+	<android/api-level.h>
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	"absl/types/any.h"
+	<any>
+	"absl/types/optional.h"
+	<optional>
+	"absl/strings/string_view.h"
+	<string_view>
+	"absl/types/variant.h"
+	<variant>
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\custom\gtest-port.h
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-port-arch.h
+	<winapifamily.h>
+	<TargetConditionals.h>
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest-message.h
+	<limits>
+	<memory>
+	<sstream>
+	"gtest/internal/gtest-port.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-filepath.h
+	"gtest/internal/gtest-string.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<cstdint>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-type-util.h
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-death-test-internal.h
+	"gtest/gtest-matchers.h"
+	"gtest/internal/gtest-internal.h"
+	<stdio.h>
+	<memory>
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest-matchers.h
+	<atomic>
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-printers.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest-printers.h
+	<functional>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/custom/gtest-printers.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\custom\gtest-printers.h
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest-param-test.h
+	<iterator>
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\internal\gtest-param-util.h
+	<ctype.h>
+	<cassert>
+	<iterator>
+	<memory>
+	<set>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest_prod.h
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1623433346 c:\googletest-release-1.11.0\googletest\include\gtest\gtest_pred_impl.h
+	"gtest/gtest.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock.h
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-function-mocker.h"
+	"gmock/gmock-matchers.h"
+	"gmock/gmock-more-actions.h"
+	"gmock/gmock-more-matchers.h"
+	"gmock/gmock-nice-strict.h"
+	"gmock/internal/gmock-internal-utils.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-actions.h
+	<errno.h>
+	<algorithm>
+	<functional>
+	<memory>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gmock/internal/gmock-pp.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\internal\gmock-internal-utils.h
+	<stdio.h>
+	<ostream>
+	<string>
+	<type_traits>
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\internal\gmock-port.h
+	<assert.h>
+	<stdlib.h>
+	<cstdint>
+	<iostream>
+	"gtest/internal/gtest-port.h"
+	"gmock/internal/custom/gmock-port.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\internal\custom\gmock-port.h
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\internal\gmock-pp.h
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-cardinalities.h
+	<limits.h>
+	<memory>
+	<ostream>
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-function-mocker.h
+	<type_traits>
+	<utility>
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-pp.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-spec-builders.h
+	<functional>
+	<map>
+	<memory>
+	<set>
+	<sstream>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+	<stdexcept>
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-matchers.h
+	<algorithm>
+	<cmath>
+	<initializer_list>
+	<iterator>
+	<limits>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gmock/internal/gmock-pp.h"
+	"gtest/gtest.h"
+	"gmock/internal/custom/gmock-matchers.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\internal\custom\gmock-matchers.h
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-more-actions.h
+	<memory>
+	<utility>
+	"gmock/gmock-actions.h"
+	"gmock/internal/gmock-port.h"
+	"gmock/internal/custom/gmock-generated-actions.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\internal\custom\gmock-generated-actions.h
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-more-matchers.h
+	"gmock/gmock-matchers.h"
+
+1623433346 c:\googletest-release-1.11.0\googlemock\include\gmock\gmock-nice-strict.h
+	<type_traits>
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-port.h"
+
+1724506372 c:\tp\fraiscalcul\mockparam.h
+
+1623433346 source:c:\tp\fraiscalcul\gmock_main.cc
+	<iostream>
+	"gmock/gmock.h"
+	"gtest/gtest.h"
+	<tchar.h>
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock.h
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-generated-actions.h"
+	"gmock/gmock-generated-function-mockers.h"
+	"gmock/gmock-generated-nice-strict.h"
+	"gmock/gmock-generated-matchers.h"
+	"gmock/gmock-matchers.h"
+	"gmock/gmock-more-actions.h"
+	"gmock/gmock-more-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-actions.h
+	<errno.h>
+	<algorithm>
+	<string>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	<type_traits>
+
+1461495432 c:\googletest-master\googlemock\include\gmock\internal\gmock-internal-utils.h
+	<stdio.h>
+	<ostream>
+	<string>
+	"gmock/internal/gmock-generated-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\internal\gmock-generated-internal-utils.h
+	"gmock/internal/gmock-port.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\internal\gmock-port.h
+	<assert.h>
+	<stdlib.h>
+	<iostream>
+	"gtest/internal/gtest-linked_ptr.h"
+	"gtest/internal/gtest-port.h"
+	"gmock/internal/custom/gmock-port.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-linked_ptr.h
+	<stdlib.h>
+	<assert.h>
+	"gtest/internal/gtest-port.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-port.h
+	<ctype.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<algorithm>
+	<iostream>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-port-arch.h"
+	"gtest/internal/custom/gtest-port.h"
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<strings.h>
+	<android/api-level.h>
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	<tuple>
+	"gtest/internal/gtest-tuple.h"
+	<tuple>
+	<tuple>
+	<tr1/tuple>
+	<tr1/tuple>
+	<tuple>
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-port-arch.h
+	<winapifamily.h>
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\custom\gtest-port.h
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-tuple.h
+	<utility>
+
+1461495432 c:\googletest-master\googlemock\include\gmock\internal\custom\gmock-port.h
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest.h
+	<limits>
+	<ostream>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest_prod.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<iomanip>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<vector>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-type-util.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest-message.h
+	<limits>
+	"gtest/internal/gtest-port.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-filepath.h
+	"gtest/internal/gtest-string.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-type-util.h
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-death-test-internal.h
+	"gtest/internal/gtest-internal.h"
+	<stdio.h>
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest-param-test.h
+	"gtest/internal/gtest-port.h"
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-param-util-generated.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-param-util.h
+	<ctype.h>
+	<iterator>
+	<set>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-linked_ptr.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/gtest-printers.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest-printers.h
+	<ostream>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-internal.h"
+	<tuple>
+	"gtest/internal/custom/gtest-printers.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\custom\gtest-printers.h
+
+1461491834 c:\googletest-master\googletest\include\gtest\internal\gtest-param-util-generated.h
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest_prod.h
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1461491834 c:\googletest-master\googletest\include\gtest\gtest_pred_impl.h
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-cardinalities.h
+	<limits.h>
+	<ostream>
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-generated-actions.h
+	"gmock/gmock-actions.h"
+	"gmock/internal/gmock-port.h"
+	"gmock/internal/custom/gmock-generated-actions.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\internal\custom\gmock-generated-actions.h
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-generated-function-mockers.h
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-internal-utils.h"
+	<functional>
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-spec-builders.h
+	<map>
+	<set>
+	<sstream>
+	<string>
+	<vector>
+	<stdexcept>
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-matchers.h
+	<math.h>
+	<algorithm>
+	<iterator>
+	<limits>
+	<ostream>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+	<initializer_list>
+	"gmock/internal/custom/gmock-matchers.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\internal\custom\gmock-matchers.h
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-generated-nice-strict.h
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-port.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-generated-matchers.h
+	<iterator>
+	<sstream>
+	<string>
+	<vector>
+	"gmock/gmock-matchers.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-more-actions.h
+	<algorithm>
+	"gmock/gmock-generated-actions.h"
+
+1461495432 c:\googletest-master\googlemock\include\gmock\gmock-more-matchers.h
+	"gmock/gmock-generated-matchers.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest.h
+	<cstddef>
+	<limits>
+	<memory>
+	<ostream>
+	<type_traits>
+	<vector>
+	"gtest/gtest-assertion-result.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-matchers.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+	"gtest/gtest_prod.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-assertion-result.h
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-message.h
+	<limits>
+	<memory>
+	<sstream>
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-port.h
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cerrno>
+	<cstdint>
+	<iostream>
+	<limits>
+	<locale>
+	<memory>
+	<string>
+	<tuple>
+	<type_traits>
+	<vector>
+	<sys/stat.h>
+	<sys/types.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	"gtest/internal/custom/gtest-port.h"
+	"gtest/internal/gtest-port-arch.h"
+	"absl/flags/declare.h"
+	"absl/flags/flag.h"
+	"absl/flags/reflection.h"
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<strings.h>
+	<unistd.h>
+	<android/api-level.h>
+	"absl/strings/string_view.h"
+	"re2/re2.h"
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	<condition_variable>
+	<mutex>
+	"absl/types/any.h"
+	<any>
+	"absl/types/optional.h"
+	<optional>
+	"absl/strings/string_view.h"
+	<string_view>
+	"absl/types/variant.h"
+	<variant>
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\custom\gtest-port.h
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-port-arch.h
+	<winapifamily.h>
+	<TargetConditionals.h>
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-death-test-internal.h
+	<stdio.h>
+	<memory>
+	"gtest/gtest-matchers.h"
+	"gtest/internal/gtest-internal.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-matchers.h
+	<atomic>
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-printers.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-printers.h
+	<functional>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/custom/gtest-printers.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<cstdint>
+	<iomanip>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<type_traits>
+	<vector>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-type-util.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-filepath.h
+	"gtest/internal/gtest-string.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<cstdint>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-type-util.h
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\custom\gtest-printers.h
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-param-test.h
+	<iterator>
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-param-util.h
+	<ctype.h>
+	<cassert>
+	<iterator>
+	<memory>
+	<set>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest_pred_impl.h
+	"gtest/gtest-assertion-result.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\googletest-release-1.12.1\googletest\include\gtest\gtest_prod.h
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest.h
+	<cstddef>
+	<limits>
+	<memory>
+	<ostream>
+	<type_traits>
+	<vector>
+	"gtest/gtest-assertion-result.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-matchers.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+	"gtest/gtest_prod.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-assertion-result.h
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-message.h
+	<limits>
+	<memory>
+	<sstream>
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-port.h
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cerrno>
+	<cstdint>
+	<iostream>
+	<limits>
+	<locale>
+	<memory>
+	<string>
+	<tuple>
+	<type_traits>
+	<vector>
+	<sys/stat.h>
+	<sys/types.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	"gtest/internal/custom/gtest-port.h"
+	"gtest/internal/gtest-port-arch.h"
+	"absl/flags/declare.h"
+	"absl/flags/flag.h"
+	"absl/flags/reflection.h"
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<strings.h>
+	<unistd.h>
+	<android/api-level.h>
+	"absl/strings/string_view.h"
+	"re2/re2.h"
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	<condition_variable>
+	<mutex>
+	"absl/types/any.h"
+	<any>
+	"absl/types/optional.h"
+	<optional>
+	"absl/strings/string_view.h"
+	<string_view>
+	"absl/types/variant.h"
+	<variant>
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\custom\gtest-port.h
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-port-arch.h
+	<winapifamily.h>
+	<TargetConditionals.h>
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-death-test-internal.h
+	<stdio.h>
+	<memory>
+	"gtest/gtest-matchers.h"
+	"gtest/internal/gtest-internal.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-matchers.h
+	<atomic>
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-printers.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-printers.h
+	<functional>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/custom/gtest-printers.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<cstdint>
+	<iomanip>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<type_traits>
+	<vector>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-type-util.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-filepath.h
+	"gtest/internal/gtest-string.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<cstdint>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-type-util.h
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\custom\gtest-printers.h
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-param-test.h
+	<iterator>
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\internal\gtest-param-util.h
+	<ctype.h>
+	<cassert>
+	<iterator>
+	<memory>
+	<set>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest_pred_impl.h
+	"gtest/gtest-assertion-result.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1656346495 c:\tp\googletest-release-1.12.1\googletest\include\gtest\gtest_prod.h
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest.h
+	<cstddef>
+	<cstdint>
+	<iomanip>
+	<limits>
+	<memory>
+	<ostream>
+	<set>
+	<sstream>
+	<string>
+	<type_traits>
+	<vector>
+	"gtest/gtest-assertion-result.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-matchers.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+	"gtest/gtest_prod.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-assertion-result.h
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-port.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-message.h
+	<limits>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	"gtest/internal/gtest-port.h"
+	<type_traits>
+	"absl/strings/internal/has_absl_stringify.h"
+	"absl/strings/str_cat.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-port.h
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cerrno>
+	<cstdint>
+	<iostream>
+	<limits>
+	<locale>
+	<memory>
+	<ostream>
+	<string>
+	<tuple>
+	<type_traits>
+	<vector>
+	<sys/stat.h>
+	<sys/types.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	"gtest/internal/custom/gtest-port.h"
+	"gtest/internal/gtest-port-arch.h"
+	"absl/flags/declare.h"
+	"absl/flags/flag.h"
+	"absl/flags/reflection.h"
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<strings.h>
+	<unistd.h>
+	<android/api-level.h>
+	"absl/strings/string_view.h"
+	"re2/re2.h"
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	<condition_variable>
+	<mutex>
+	"absl/types/any.h"
+	<any>
+	"absl/types/optional.h"
+	<optional>
+	"absl/strings/string_view.h"
+	<string_view>
+	"absl/types/variant.h"
+	<variant>
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\custom\gtest-port.h
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-port-arch.h
+	<winapifamily.h>
+	<TargetConditionals.h>
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-death-test-internal.h
+	<stdio.h>
+	<memory>
+	<string>
+	"gtest/gtest-matchers.h"
+	"gtest/internal/gtest-internal.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-matchers.h
+	<atomic>
+	<functional>
+	<memory>
+	<ostream>
+	<string>
+	<type_traits>
+	"gtest/gtest-printers.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-printers.h
+	<functional>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	<tuple>
+	<type_traits>
+	<typeinfo>
+	<utility>
+	<vector>
+	"absl/strings/internal/has_absl_stringify.h"
+	"absl/strings/str_cat.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/custom/gtest-printers.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<cstdint>
+	<functional>
+	<iomanip>
+	<limits>
+	<map>
+	<set>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-type-util.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-filepath.h
+	<string>
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-string.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<cstdint>
+	<sstream>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-type-util.h
+	<string>
+	<type_traits>
+	<typeinfo>
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\custom\gtest-printers.h
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-param-test.h
+	<iterator>
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\internal\gtest-param-util.h
+	<ctype.h>
+	<cassert>
+	<iterator>
+	<map>
+	<memory>
+	<ostream>
+	<set>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"gtest/gtest-printers.h"
+	"gtest/gtest-test-part.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<ostream>
+	<string>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest_pred_impl.h
+	"gtest/gtest-assertion-result.h"
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-port.h"
+
+1703759450 c:\tp\googletest-1.14.0\googletest\include\gtest\gtest_prod.h
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock.h
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-function-mocker.h"
+	"gmock/gmock-matchers.h"
+	"gmock/gmock-more-actions.h"
+	"gmock/gmock-more-matchers.h"
+	"gmock/gmock-nice-strict.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-actions.h
+	<errno.h>
+	<algorithm>
+	<functional>
+	<memory>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gmock/internal/gmock-pp.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\internal\gmock-internal-utils.h
+	<stdio.h>
+	<ostream>
+	<string>
+	<type_traits>
+	<vector>
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\internal\gmock-port.h
+	<assert.h>
+	<stdlib.h>
+	<cstdint>
+	<iostream>
+	"gmock/internal/custom/gmock-port.h"
+	"gtest/internal/gtest-port.h"
+	"absl/flags/declare.h"
+	"absl/flags/flag.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\internal\custom\gmock-port.h
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\internal\gmock-pp.h
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-cardinalities.h
+	<limits.h>
+	<memory>
+	<ostream>
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-function-mocker.h
+	<type_traits>
+	<utility>
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-pp.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-spec-builders.h
+	<cstdint>
+	<functional>
+	<map>
+	<memory>
+	<ostream>
+	<set>
+	<sstream>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+	<stdexcept>
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-matchers.h
+	<algorithm>
+	<cmath>
+	<exception>
+	<functional>
+	<initializer_list>
+	<ios>
+	<iterator>
+	<limits>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gmock/internal/gmock-pp.h"
+	"gtest/gtest.h"
+	"gmock/internal/custom/gmock-matchers.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\internal\custom\gmock-matchers.h
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-more-actions.h
+	<memory>
+	<utility>
+	"gmock/gmock-actions.h"
+	"gmock/internal/gmock-port.h"
+	"gmock/internal/custom/gmock-generated-actions.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\internal\custom\gmock-generated-actions.h
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-more-matchers.h
+	<ostream>
+	<string>
+	"gmock/gmock-matchers.h"
+
+1703759449 c:\tp\googletest-1.14.0\googlemock\include\gmock\gmock-nice-strict.h
+	<cstdint>
+	<type_traits>
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-port.h"
+
+1725437009 source:c:\tp\fraiscalcul\test\testcalculfrais.cpp
+	"../CalculFrais.h"
+	<string>
+	"gtest/gtest.h"
+	"gmock/gmock.h"
+	"../MockParam.h"
+
+1726467974 source:c:\tp\fraiscalcul\src\calculfrais.cpp
+	<string>
+	"CalculFrais.h"
+	"Param.h"
+	<iostream>
+
+1724506372 c:\tp\fraiscalcul\include\calculfrais.h
+	"Param.h"
+	<string>
+
+1724506372 c:\tp\fraiscalcul\include\param.h
+	<iostream>
+
